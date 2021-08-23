@@ -1,4 +1,4 @@
-Homework for Charles and Fiddler
+Homework for Charles and Fiddler:
 
 Сфокусироваться на ниже перечисленных запросах
 Protocol: http
@@ -96,16 +96,16 @@ Ex_5:
 Method: GET
 EndPoint: /object_info_4
 request url params:
-OAOAOA name: str
-OAOAOA age: int
+ name: str
+ age: int
  salary: int
 
-OAOAOAresponse:
-OAOAOA{'name': name,
-OAOAOA          'age': int(age),
+response:
+{'name': name,
+          'age': int(age),
           'salary': [salary, str(salary * 2), str(salary * 3)]}
-OAOAOA
-OAOAOA
+
+
 Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Сделать через Charles так, чтобы сервер вернул 405 ошибку.
